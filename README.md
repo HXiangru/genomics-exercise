@@ -73,7 +73,7 @@ late_rate = len(late_mutations) / late_bp
 **Answer**: it might be colon cancer <a target="_blank" href="https://doi.org/10.1016/j.cell.2017.01.002">(2)</a> <a target="_blank" href="https://www.cancer.gov/publications/dictionaries/cancer-terms/def/mismatch-repair-deficiency">(3)</a>
 
 ## 8. Using GENCODE_known_canonical_TSS.bed, write a script to generate a file containing all genes with bidirectional promoters (i.e. non-overlapping promoters that are at most 1kb apart on opposing strands - see schematic below).
-**Answer**: <a target="_blank" href="https://github.com/HXiangru/hku/blob/main/bidirectional_promoters.bed.txt">bidirectional_promoters.bed</a>
+**Answer**: <a target="_blank" href="https://github.com/HXiangru/genomics-exercise/blob/main/bidirectional_promoters.bed">bidirectional_promoters.bed</a>
 ```python
 # read the file, extract information about adjacent genes
 for i in range(len(df) - 1):
